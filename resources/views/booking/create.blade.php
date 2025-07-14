@@ -579,7 +579,7 @@
                     <div class="qr-container mb-6">
                         <p class="text-sm text-gray-700 mb-3">Pindahkan deposit RM 20 untuk mengesahkan tempahan</p>
                         <button type="button" onclick="showQR()" class="qr-image">
-                            <img src="{{ asset('storage/qr-code.png') }}" alt="Kod QR" class="w-24 h-24">
+                            <img src="https://masjidalikhwan.com/storage/qrcode.png" alt="Kod QR" class="w-24 h-24">
                         </button>
                     </div>
 
@@ -773,7 +773,7 @@
         function showQR() {
             Swal.fire({
                 title: 'Imbas untuk Membayar',
-                imageUrl: "{{ asset('storage/qr-code.png') }}",
+                imageUrl: "https://masjidalikhwan.com/storage/qrcode.png",
                 imageAlt: 'Kod QR',
                 imageClass: 'swal2-image-responsive',
                 confirmButtonText: 'Tutup',
